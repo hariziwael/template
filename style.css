@@ -1,0 +1,94 @@
+body{
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.logo{
+    font-family:Arial, Helvetica, sans-serif
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;  
+    align-items: center;      
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.sign{
+    padding: 10px;
+    margin-left: 120px;
+    
+}
+span {
+    color: orangered;
+}
+
+main{
+    display: flex;   
+} 
+.section-right{ 
+    position: relative;
+    left: 100px;  
+    top: 10px;
+    background-image: url("header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;   
+}
+main article{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+.title{
+    font-size: 250%;
+    font-weight: 1500;
+    line-height: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pargraphe{
+    font-size: large;
+}
+article section{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 60px;
+}
+
+article section div{
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+#sign{
+    padding: 10px 15px 10px 15px;
+    background-color: orangered;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+div p a{
+    position: relative;
+    left: 110px;
+}
+footer p{
+    
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
