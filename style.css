@@ -58,7 +58,7 @@ main article{
     font-size: 250%;
     font-weight: 1500;
     line-height: 50px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .pargraphe{
     font-size: large;
@@ -84,7 +84,7 @@ article section div{
 }
 div p a{
     position: relative;
-    left: 110px;
+    left: 80px;
 }
 footer p{
     
